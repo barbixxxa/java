@@ -3,7 +3,9 @@ package br.com.caelum.jdbc.teste;
 import java.util.List;
 
 import br.com.caelum.jdbc.dao.ContatoDao;
+import br.com.caelum.jdbc.dao.FuncionarioDao;
 import br.com.caelum.jdbc.modelo.Contato;
+import br.com.caelum.jdbc.modelo.Funcionario;
 
 public class TestaLista {
 	public static void main(String[] args) {
@@ -17,6 +19,17 @@ public class TestaLista {
 			System.out.println("E-mail: " + contato.getEmail());
 			System.out.println("Endereço: " + contato.getEndereco());
 			System.out.println("Data de Nascimento: " + contato.getDataNascimento().getTime() + "\n");
+		}
+
+		// Funcionario
+		FuncionarioDao fdao = new FuncionarioDao();
+		List<Funcionario> funcionarios = fdao.getLista();
+
+		for (Funcionario funcionario : funcionarios) {
+			System.out.println("Id: " + funcionario.getId());
+			System.out.println("Nome: " + funcionario.getNome());
+			System.out.println("Usuario: " + funcionario.getUsuario());
+			System.out.println("Senha: " + funcionario.getSenha());
 		}
 	}
 }

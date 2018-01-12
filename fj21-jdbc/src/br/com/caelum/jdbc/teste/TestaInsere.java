@@ -3,7 +3,9 @@ package br.com.caelum.jdbc.teste;
 import java.util.Calendar;
 
 import br.com.caelum.jdbc.dao.ContatoDao;
+import br.com.caelum.jdbc.dao.FuncionarioDao;
 import br.com.caelum.jdbc.modelo.Contato;
+import br.com.caelum.jdbc.modelo.Funcionario;
 
 public class TestaInsere {
 	public static void main(String[] args) {
@@ -21,7 +23,17 @@ public class TestaInsere {
 		// adicionar contato
 		dao.adiciona(contato);
 
-		System.out.println("Gravado");
+		System.out.println("Contato Gravado");
 
+		Funcionario funcionario = new Funcionario();
+		FuncionarioDao fdao = new FuncionarioDao();
+
+		funcionario.setNome("Muller");
+		funcionario.setUsuario("theeam");
+		funcionario.setSenha("passw0rd");
+
+		fdao.adiciona(funcionario);
+
+		System.out.println("Funcionario Gravado");
 	}
 }
