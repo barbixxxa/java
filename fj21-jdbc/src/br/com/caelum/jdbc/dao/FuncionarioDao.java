@@ -1,7 +1,7 @@
 package br.com.caelum.jdbc.dao;
 
 import java.sql.Connection;
-import java.sql.Date;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.caelum.jdbc.ConnectionFactory;
-import br.com.caelum.jdbc.modelo.Contato;
+
 import br.com.caelum.jdbc.modelo.Funcionario;
 
 public class FuncionarioDao {

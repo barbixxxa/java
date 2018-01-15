@@ -19,7 +19,7 @@ public class TestaRemove {
 		Funcionario funcionario = new Funcionario();
 		FuncionarioDao fdao = new FuncionarioDao();
 
-		funcionario.setId((long) 2);
+		funcionario.setId((long) 1);
 
 		if (fdao.remove(funcionario)) {
 			System.out.println("Funcionario removido com sucesso");
