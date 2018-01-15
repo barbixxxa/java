@@ -1,0 +1,14 @@
+package br.com.caelum.jdbc.teste;
+
+import br.com.caelum.jdbc.modelo.Contato;
+
+public class TestaInsere {
+	public static void main(String[] args) {
+		
+		//pronto para gravar
+		Contato contato = new Contato();
+		contato.setNome("Eduardo");
+		
+
+	}
+}

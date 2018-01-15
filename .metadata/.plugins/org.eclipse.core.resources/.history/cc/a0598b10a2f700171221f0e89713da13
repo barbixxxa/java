@@ -1,0 +1,11 @@
+package br.com.caelum.jdbc.teste;
+
+import br.com.caelum.jdbc.dao.ContatoDao;
+
+public class TestePesquisar {
+public static void main(String[] args) {
+	ContatoDao dao = new ContatoDao();
+	
+	dao.pesquisar(1);
+}
+}
