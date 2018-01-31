@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Mon Jan 15 14:37:52 GFT 2018
-org.eclipse.jst.jee.server\:fj21-tarefas=C\:\\Users\\ealbuquerque\\Desktop\\apache-tomcat-8.5.24 VW\\wtpwebapps\\fj21-tarefas
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ealbuquerque\\eclipse-workspace\\fj21-tarefas\\WebContent\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar=C\:\\Users\\ealbuquerque\\Desktop\\apache-tomcat-8.5.24 VW\\wtpwebapps\\fj21-tarefas\\WEB-INF\\lib\\spring-web-4.0.0.RELEASE.jar
